@@ -1,5 +1,5 @@
 public class Monster {
-    public int name;
+    public String name;
     public int attack;
     public int hp;
 
@@ -7,7 +7,7 @@ public class Monster {
         this.hp = hp;
     }
 
-    public int getName() {
+    public String getName() {
         return name;
     }
 
@@ -19,7 +19,7 @@ public class Monster {
         return hp;
     }
 
-    public Monster(int name, int attack, int hp) {
+    public Monster(String name, int attack, int hp) {
         this.name = name;
         this.attack = attack;
         this.hp = hp;

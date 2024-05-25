@@ -24,6 +24,14 @@ public class Gladiator {
         this.haveShield = haveShield;
     }
 
+    public boolean isHaveShield() {
+        return haveShield;
+    }
+
+    public void setBasicHP(int basicHP) {
+        this.basicHP = basicHP;
+    }
+
     public int getBasicAttack() {
         return basicAttack;
     }
